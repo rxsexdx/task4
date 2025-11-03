@@ -1,0 +1,97 @@
+@media screen and (max-width:600px){
+    .header-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .header-main {
+        gap: 15px;
+        width: 100%;
+    }
+
+    .greeting h1 {
+        font-size: 1.8rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav {
+        width: 100vw;
+        margin-left: -20px;
+        margin-right: -20px;
+        border-radius: 0;
+        padding: 15px 0;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        width: 100%;
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu a {
+        display: block;
+        padding: 15px;
+        width: 100%;
+        border-radius: 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .menu li:last-child a {
+        border-bottom: none;
+    }
+
+    .main-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .news, .content {
+        padding: 20px;
+    }
+
+    .content-section {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .member-photo {
+        height: 180px;
+    }
+
+    .team-member {
+        padding: 20px;
+    }
+
+    .contact-info-full {
+        gap: 15px;
+    }
+
+    .contact-item-full {
+        padding: 20px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .service-item {
+        padding: 15px;
+    }
+}
